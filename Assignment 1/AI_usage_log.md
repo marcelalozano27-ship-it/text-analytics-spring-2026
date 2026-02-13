@@ -1,13 +1,11 @@
-## I used Chat for creating my visualizations by prompting it with the titles and labels I wanted as well as the type of visualization. I wanted to make sure that there was consistency across visuals. I also used chat to help make my output print cleaner so I had it help me with formatting.
-
-##I asked Chat to help me figure out how to make the data used in the analysis accessible to anyone on any computer. It suggested I upload the data to my GitHub so I did that.
-
-##I asked chat to write me a function that checks the speeds of each of the models and I also had it write me the code to output this information as an organized table.
-
-##I uploaded an example of the model table to chat as well as my classification report and asked for it to be organized in a neat markdown way with my justifications so that I could more easily format the information in a table.
+## General Use Cases
+- I used ChatGPT for creating my visualizations by prompting it with the titles and labels I wanted as well as the type of visualization. I wanted to make sure that there was consistency across visuals. I also used chat to help make my output print cleaner so I had it help me with formatting.
+- I asked ChatGPT to help me figure out how to make the data used in the analysis accessible to anyone on any computer. It suggested I upload the data to my GitHub so I did that.
+- I asked ChatGPT to write me a function that checks the speeds of each of the models and I also had it write me the code to output this information as an organized table.
+- I uploaded an example of the model table to chat as well as my classification report and asked for it to be organized in a neat markdown way with my justifications so that I could more easily format the information in a table.
 ------------------------------------------------------------------------
-
-## Task: Apply sentiment models to sample text + create labels
+## Additional Use cases for more specific tasks
+### Task: Apply sentiment models to sample text + create labels
 
 **What I was trying to do:**\
 Run sentiment models on a sample of airline reviews and generate
@@ -16,7 +14,7 @@ map scores to `positive/neutral/negative`.
 
 ------------------------------------------------------------------------
 
-## Task: Extract only the VADER compound score efficiently
+### Task: Extract only the VADER compound score efficiently
 
 
 **What I was trying to do:**\
@@ -37,7 +35,7 @@ from -1 to 1.
 
 ------------------------------------------------------------------------
 
-## Task: Create custom text cleaning function for airline reviews
+### Task: Create custom text cleaning function for airline reviews
 
 **What I was trying to do:**\
 Clean airline review text by removing HTML, URLs, numbers, and extra
@@ -59,7 +57,7 @@ controlled.
 
 ------------------------------------------------------------------------
 
-## Task: Design model-specific preprocessing for VADER, TextBlob, and Transformer
+### Task: Design model-specific preprocessing for VADER, TextBlob, and Transformer
 
 
 **What I was trying to do:**\
@@ -82,9 +80,7 @@ signals.
 
 ------------------------------------------------------------------------
 
-## Task: Create domain-specific stopword list for airline sentiment analysis
-
-
+### Task: Create domain-specific stopword list for airline sentiment analysis
 
 **What I was trying to do:**\
 Develop a custom stopword list tailored to airline review text to reduce
