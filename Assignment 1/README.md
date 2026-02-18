@@ -173,8 +173,15 @@ Weaknesses:
 
 
 ---
-
-
+### Lessons Learned and Reflection  Specific technical lessons, honest challenges, concrete improvements, includes AI learning reflection
+- One of the main challenges I came across was labeling the ground truth especially for the neutral reviews. Since a lot of these texts were lengthy and included nuanced langugae, the human labeling contains subjectivity.
+-Neutral sentiment was consistently the hardest class to define and predict for all three models.
+- Another challenge was the mixed opinions in several reviews which caused more issues for the Lexicon based models as they rely more on word polarity.
+- From a technical perspective I learned how important text cleaning is for the different models.
+- I also learned about how the purpose of the analysis plays a large role in determining which model to use.
+- A key limitation is the small labeled sample size (100 manually labeled). This can limit the generalizability of our evaluation and may cause labeling bias.
+- One potential imporvement would be to use a larger sample size and address the class imbalances.
+- For AI usage, I primarily used AI for challenging my code to make it better. I also used it for keeping visual formatting consistent.
 ## Important Notes
 
 -   Stopwords are removed only for EDA and word clouds but not for the text used in
