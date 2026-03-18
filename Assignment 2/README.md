@@ -1,7 +1,7 @@
 # Fake News Detection – Text Classification Assignment 2
 
 **Student:** Marcela Lozano  
-**Date:** March 2026  
+**Date:** March 22nd 2026  
 **Dataset:** Fake and Real News Dataset
 
 ---
