@@ -144,3 +144,5 @@ This model achieved:
 While Logistic Regression offers greater interpretability, the superior predictive performance of the Linear SVM model makes it the best overall choice for this classification task.
 
 Therefore, **Linear SVM + TF-IDF is selected as the final deployed model.**
+
+Link to Colab Notebook: https://colab.research.google.com/drive/18w3sV0mpd1p07AdyAJhTxtppH9EqBoE3?usp=sharing
