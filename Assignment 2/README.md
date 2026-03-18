@@ -117,7 +117,7 @@ To test how well the final model generalizes to new examples, **20 custom news h
 
 The model correctly classified:
 
-**11 / 20 examples**
+**10 / 20 examples**
 
 ### Key Findings
 
