@@ -2,7 +2,7 @@
 
 **Student:** Marcela Lozano  
 **Date:** March 22nd 2026  
-**Dataset:** Fake and Real News Dataset
+**Dataset:** Kaggle Fake and Real News Dataset
 
 ---
 
@@ -82,6 +82,8 @@ The best performing model was **Linear Support Vector Machine (SVM) with TF-IDF 
 | Precision | 0.9962 |
 | Recall | 0.9940 |
 | F1 Score | **0.9951** |
+| Training Time | 1.44 sec |
+| Prediction Time | 0.0036 sec |
 
 These results indicate that the model performs well in distinguishing between fake and real news articles for the test dataset but has weaker performance for unseen data.
 
@@ -149,5 +151,8 @@ This model achieved:
 While Logistic Regression offers greater interpretability, the superior predictive performance of the Linear SVM model makes it the best overall choice for this classification task.
 
 Therefore, **Linear SVM + TF-IDF is selected as the final deployed model.**
+
+### Limitations
+Although the model performed strongly on the test dataset, it only achieved 50% accuracy on custom inference samples suggesting weaker performance on out of domain text. 
 
 Link to Colab Notebook: https://colab.research.google.com/drive/18w3sV0mpd1p07AdyAJhTxtppH9EqBoE3?usp=sharing
