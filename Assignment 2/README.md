@@ -40,6 +40,11 @@ The dataset includes the full text of each article which was used as the primary
 The class distribution is relatively balanced, which helps ensure models do not become biased toward a single label.
 
 ---
+### Text Preprocessing:
+- Lowercasing
+- Stopword removal
+- Punctuation Removal
+- Tokenize
 
 # Feature Engineering
 
@@ -78,7 +83,7 @@ The best performing model was **Linear Support Vector Machine (SVM) with TF-IDF 
 | Recall | 0.9940 |
 | F1 Score | **0.9951** |
 
-These results indicate that the model performs extremely well in distinguishing between fake and real news articles.
+These results indicate that the model performs well in distinguishing between fake and real news articles for the test dataset but has weaker performance for unseen data.
 
 ---
 
